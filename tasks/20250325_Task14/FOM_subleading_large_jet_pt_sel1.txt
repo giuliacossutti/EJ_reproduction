@@ -1,0 +1,31 @@
+This file contains significance S/sqrt(Bkg) for the histogram subleading_large_jet_pt
+Cuts are between cut and 2500 with 28 cuts between 250 and 1600 included.
+
+Cut:	250	significance: 104214 ,	Left 93.1488 % signal, 	35.6154 % bkg.
+Cut:	300	significance: 136360 ,	Left 88.3848 % signal, 	18.7293 % bkg.
+Cut:	350	significance: 188009 ,	Left 80.8765 % signal, 	8.24949 % bkg.
+Cut:	400	significance: 227275 ,	Left 75.4989 % signal, 	4.91944 % bkg.
+Cut:	450	significance: 279941 ,	Left 67.2755 % signal, 	2.57464 % bkg.
+Cut:	500	significance: 305843 ,	Left 61.637 % signal, 	1.8106 % bkg.
+Cut:	550	significance: 353326 ,	Left 52.7468 % signal, 	0.993526 % bkg.
+Cut:	600	significance: 380703 ,	Left 47.1083 % signal, 	0.682592 % bkg.
+Cut:	650	significance: 406865 ,	Left 39.7594 % signal, 	0.425714 % bkg.
+Cut:	700	significance: 420605 ,	Left 34.7442 % signal, 	0.304196 % bkg.
+Cut:	750	significance: 432507 ,	Left 28.1925 % signal, 	0.189417 % bkg.
+Cut:	800	significance: 491866 ,	Left 24.2306 % signal, 	0.108186 % bkg.
+Cut:	850	significance: 463669 ,	Left 18.9351 % signal, 	0.074346 % bkg.
+Cut:	900	significance: 410493 ,	Left 15.9685 % signal, 	0.0674612 % bkg.
+Cut:	950	significance: 373856 ,	Left 12.1612 % signal, 	0.0471717 % bkg.
+Cut:	1000	significance: 329851 ,	Left 9.93381 % signal, 	0.0404329 % bkg.
+Cut:	1050	significance: 256765 ,	Left 7.05899 % signal, 	0.0336941 % bkg.
+Cut:	1100	significance: 227535 ,	Left 5.59501 % signal, 	0.0269553 % bkg.
+Cut:	1150	significance: 176745 ,	Left 3.76383 % signal, 	0.0202164 % bkg.
+Cut:	1200	significance: 126149 ,	Left 2.68638 % signal, 	0.0202164 % bkg.
+Cut:	1250	significance: 86420.2 ,	Left 1.50263 % signal, 	0.0134776 % bkg.
+Cut:	1300	significance: 77024 ,	Left 0.946997 % signal, 	0.00673881 % bkg.
+Cut:	1350	significance: 25150.7 ,	Left 0.309224 % signal, 	0.00673881 % bkg.
+Cut:	1400	significance: 0 ,	Left 0.193265 % signal, 	0 % bkg.
+Cut:	1450	significance: 0 ,	Left 0.106296 % signal, 	0 % bkg.
+Cut:	1500	significance: 0 ,	Left 0.0724743 % signal, 	0 % bkg.
+Cut:	1550	significance: 0 ,	Left 0.0531478 % signal, 	0 % bkg.
+Cut:	1600	significance: 0 ,	Left 0.0483162 % signal, 	0 % bkg.

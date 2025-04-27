@@ -1,0 +1,4 @@
+This file contains number of events passing high mjj selection in the sample bkg_Top
+
+Number of used Events without DeltaPTF selection: 3 out of 50000
+Number of used Events with DeltaPTF selection: 3 out of 50000

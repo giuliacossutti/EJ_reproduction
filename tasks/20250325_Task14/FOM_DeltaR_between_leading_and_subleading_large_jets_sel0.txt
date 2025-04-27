@@ -1,0 +1,24 @@
+This file contains significance S/sqrt(Bkg) for the histogram DeltaR_between_leading_and_subleading_large_jets
+Cuts are between cut and 0 with 21 cuts between 1 and 6 included.
+
+Cut:	1	significance: 0 ,	Left 0.0048938 % signal, 	0 % bkg.
+Cut:	1.25	significance: 10777.8 ,	Left 0.269159 % signal, 	0.0277442 % bkg.
+Cut:	1.5	significance: 19000.4 ,	Left 0.920035 % signal, 	0.104302 % bkg.
+Cut:	1.75	significance: 25537.3 ,	Left 1.4975 % signal, 	0.152967 % bkg.
+Cut:	2	significance: 30920 ,	Left 2.31966 % signal, 	0.250371 % bkg.
+Cut:	2.25	significance: 33404.4 ,	Left 3.09778 % signal, 	0.382567 % bkg.
+Cut:	2.5	significance: 30747.2 ,	Left 4.64422 % signal, 	1.01491 % bkg.
+Cut:	2.75	significance: 29158.9 ,	Left 6.67515 % signal, 	2.33126 % bkg.
+Cut:	3	significance: 29403.9 ,	Left 13.8788 % signal, 	9.91083 % bkg.
+Cut:	3.25	significance: 40355.4 ,	Left 35.4165 % signal, 	34.2626 % bkg.
+Cut:	3.5	significance: 55217.8 ,	Left 69.6046 % signal, 	70.6854 % bkg.
+Cut:	3.75	significance: 59697.8 ,	Left 81.6727 % signal, 	83.2625 % bkg.
+Cut:	4	significance: 63502.5 ,	Left 91.9888 % signal, 	93.3473 % bkg.
+Cut:	4.25	significance: 64888.3 ,	Left 95.6886 % signal, 	96.7386 % bkg.
+Cut:	4.5	significance: 65845.1 ,	Left 98.3018 % signal, 	99.1493 % bkg.
+Cut:	4.75	significance: 66268.4 ,	Left 99.1681 % signal, 	99.6192 % bkg.
+Cut:	5	significance: 66510.4 ,	Left 99.6476 % signal, 	99.8545 % bkg.
+Cut:	5.25	significance: 66610.5 ,	Left 99.8287 % signal, 	99.9168 % bkg.
+Cut:	5.5	significance: 66668 ,	Left 99.9462 % signal, 	99.9792 % bkg.
+Cut:	5.75	significance: 66675.5 ,	Left 99.9608 % signal, 	99.9862 % bkg.
+Cut:	6	significance: 66688.6 ,	Left 99.9804 % signal, 	99.9862 % bkg.

@@ -1,0 +1,14 @@
+This file contains significance S/sqrt(Bkg) for the histogram number_of_constituents_of_leading_and_subleading_large_jets
+Cuts are between cut and 10.5 with 11 cuts between -0.5 and 9.5 included.
+
+Cut:	-0.5	significance: 94419.4 ,	Left 100 % signal, 	100 % bkg.
+Cut:	0.5	significance: 94419.4 ,	Left 100 % signal, 	100 % bkg.
+Cut:	1.5	significance: 156957 ,	Left 91.1682 % signal, 	30.0778 % bkg.
+Cut:	2.5	significance: 293394 ,	Left 65.8204 % signal, 	4.48684 % bkg.
+Cut:	3.5	significance: 580528 ,	Left 35.2184 % signal, 	0.328106 % bkg.
+Cut:	4.5	significance: 767468 ,	Left 14.2381 % signal, 	0.0306835 % bkg.
+Cut:	5.5	significance: 699653 ,	Left 4.32409 % signal, 	0.00340522 % bkg.
+Cut:	6.5	significance: 0 ,	Left 0.961446 % signal, 	0 % bkg.
+Cut:	7.5	significance: 0 ,	Left 0.132863 % signal, 	0 % bkg.
+Cut:	8.5	significance: 0 ,	Left 0.0120785 % signal, 	0 % bkg.
+Cut:	9.5	significance: 0 ,	Left 0 % signal, 	0 % bkg.
