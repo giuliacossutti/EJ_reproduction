@@ -1,0 +1,62 @@
+! This file contains commands to be read in for a Pythia8 run.
+! Lines not beginning with a letter or digit are comments.
+! Names are case-insensitive  -  but spellings-sensitive!
+! Author: Giulia Cossutti
+
+-------------- My settings ----------------
+
+# Settings used in the main program.
+Main:numberOfEvents = 50000         ! number of events to generate
+!Main:timesAllowErrors = 3          ! how many aborts before run stops
+
+# Settings related to output in init(), next() and stat().
+Init:showProcesses = on            ! list all processes and cross sections
+Init:showChangedSettings = on      ! list changed settings
+Init:showChangedParticleData = on  ! list changed particle data
+Next:numberCount = 1000             ! print message every n events
+Next:numberShowInfo = 1            ! print event information n times
+Next:numberShowProcess = 10         ! print process record n times
+Next:numberShowEvent = 1           ! print event record n times
+
+# Beam parameter settings
+Beams:idA = 2212                   ! first beam, p = 2212, pbar = -2212
+Beams:idB = 2212                   ! second beam, p = 2212, pbar = -2212
+Beams:eCM = 13600.                 ! CM energy of collision
+
+# ATLAS tune
+Tune:pp = 21                        ! ATLAS A14 central tune with NNPDF2.3LO
+
+--------------- EJ analysis settings --------------------
+
+# OVERRIDE STANDARD ATLAS TAU0 LIMIT
+
+!ParticleDecays:limitTau0 = off        ! Particles with life ove Tau0 are considered stable
+
+# Non model-dependent settings
+
+PartonLevel:MPI = on                  ! Turn on Multi-Parton Interactions
+!PartonLevel:ISR = on                  ! Turn on Initial State Radiation
+
+Main:timesAllowErrors = 500          ! Number of allowed errors before aborting the run
+ProcessLevel:all = on                ! Switch on process generation
+ProcessLevel:resonanceDecays = on    ! Allow resonances to decay
+PartonLevel:all = on                 ! Switch on all parton processes
+PartonLevel:ISR = on                 ! Switch on Initial State Radiation
+HadronLevel:all = on                 ! Switch on hadronization processes
+PhaseSpace:useBreitWigners = on      ! Allow masses to be selected according to Brei-Wigner shapes in 2 -> 2 processes
+
+
+-------------- Background: Top --------------------------
+
+Top:all = on                         ! Switch on top production (all processes) 
+
+# Top production through t tbar production
+
+!Top:gg2ttbar = on                   ! g g -> t tbar
+!Top:qqbar2ttbar = on                ! q qbar -> t tbar
+
+------------------- SEED -----------------------
+
+! Seed for event generation
+Random:setSeed = on                ! allow to set a seed for pseudo-random event generation
+Random:seed = MYSEED               ! select the pseudo-random sequence for generation (seed)

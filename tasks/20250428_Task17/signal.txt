@@ -1,0 +1,4 @@
+This file contains number of events passing high mjj selection in the sample signal
+
+Number of used Events without DeltaPTF selection: 48765 out of 500000
+Number of used Events with DeltaPTF selection: 48765 out of 500000

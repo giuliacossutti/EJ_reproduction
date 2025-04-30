@@ -1,0 +1,29 @@
+# condor test
+
+#executable = /gfsvol01/atlas/giuliac/HiggsTutorial/MG5_aMC_v3_5_6/Delphes/EJ_reproduction/tasks/20250428_Task17/test.sh
+executable = test.sh
+
+#initialdir              = /gfsvol01/atlas/giuliac/HiggsTutorial/MG5_aMC_v3_5_6/Delphes
+#initialdir              = /gfsvol01/atlas/giuliac
+#transfer_input_files    = condor/20250428_Task17/pythia8_cards/signal_$(Item).cmnd, HiggsTutorial/MG5_aMC_v3_5_6/Delphes/EJ_reproduction/delphes_cards/delphes_card_ATLAS_EJ_reproduction_Reclustering.tcl 
+
+getenv=True
+
+request_cpus=1
+request_memory=2048
+request_disk=10000000
+
+#log = /gfsvol01/atlas/giuliac/HiggsTutorial/MG5_aMC_v3_5_6/Delphes/EJ_reproduction/tasks/20250428_Task17/test.log
+#output = /gfsvol01/atlas/giuliac/HiggsTutorial/MG5_aMC_v3_5_6/Delphes/EJ_reproduction/tasks/20250428_Task17/test.out
+#error = /gfsvol01/atlas/giuliac/HiggsTutorial/MG5_aMC_v3_5_6/Delphes/EJ_reproduction/tasks/20250428_Task17/test.err
+log = test.log
+output = test.out
+error = test.err
+
+notification = complete
+notify_user = giulia.cossutti@cern.ch
+
+should_transfer_files = Yes
+when_to_transfer_output = ON_EXIT
+
+queue

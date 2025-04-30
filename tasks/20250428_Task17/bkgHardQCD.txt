@@ -1,0 +1,4 @@
+This file contains number of events passing high mjj selection in the sample bkgHardQCD
+
+Number of used Events without DeltaPTF selection: 28 out of 500000
+Number of used Events with DeltaPTF selection: 28 out of 500000
